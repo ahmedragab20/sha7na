@@ -277,6 +277,60 @@ nav .list .list-links a.active {
   background-color: #276dff;
 }
 
+.location {
+  background-color: #276dff;
+}
+
+.location .button button {
+  color: #276dff;
+  font-weight: bold;
+}
+
+.features .card {
+  min-height: 300px;
+}
+
+.features .card img {
+  height: 190px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 7px;
+}
+
+.features .card .card-body {
+  padding: 15px 0 0 0;
+}
+
+.features .card .card-body .card-text {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+.features .triangle {
+  right: -185px;
+  top: 20%;
+}
+
+.features .traking-box {
+  min-height: 60vh;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.features .traking-box .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.features .traking-box .context {
+  background-color: #276dff;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -289,7 +343,7 @@ body {
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #0c0c0c;
-  min-height: 400vh;
+  min-height: 900vh;
 }
 
 html #logoSpan,

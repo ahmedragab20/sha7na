@@ -1,0 +1,46 @@
+.features {
+  .card {
+    min-height: 300px;
+
+    img {
+      height: 190px !important;
+      object-fit: cover;
+      border-radius: $rounded;
+    }
+
+    .card-body {
+      padding: 15px 0 0 0;
+
+      .card-text {
+        opacity: 0.7;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .triangle {
+    right: -185px;
+    top: 20%;
+  }
+
+  .traking-box {
+    min-height: 60vh;
+    border-radius: $rounded10;
+    overflow: hidden;
+
+    .image {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .context {
+      background-color: $blue;
+      color: $white;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

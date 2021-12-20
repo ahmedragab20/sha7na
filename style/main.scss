@@ -5,6 +5,8 @@
 @import "./Global/sperator";
 @import "./clients";
 @import "./calculator";
+@import "./location";
+@import "./features";
 
 // imports
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
@@ -19,7 +21,7 @@ body {
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: $darkBrown;
-  min-height: 400vh;
+  min-height: 900vh;
 
   #logoSpan,
   #logoSpanList,
