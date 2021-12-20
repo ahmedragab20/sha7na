@@ -225,10 +225,6 @@ nav .list .list-links a.active {
   cursor: pointer;
 }
 
-.calculator {
-  height: 100vh;
-}
-
 .calculator .triangle {
   left: -180px;
   top: 20%;
