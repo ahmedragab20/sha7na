@@ -172,10 +172,8 @@ nav .list .list-links a.active {
 }
 
 .slider .slider-context .input .button button {
-  border-radius: 10px;
   background-color: #276dff;
   color: #ffffff;
-  font-size: 1rem;
 }
 
 .slider .swiper {
@@ -216,6 +214,69 @@ nav .list .list-links a.active {
   }
 }
 
+.seperator .seperator-box {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 55px;
+  height: 55px;
+}
+
+.clients .companies .image img {
+  cursor: pointer;
+}
+
+.calculator {
+  height: 100vh;
+}
+
+.calculator .triangle {
+  left: -180px;
+  top: 20%;
+}
+
+.calculator .image-container figure {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#276dff), to(#143780));
+  background: linear-gradient(#276dff, #143780);
+  top: 0;
+  right: 30px;
+  border-radius: 10px;
+}
+
+.calculator .image-container .absolutes {
+  z-index: 9;
+  top: -25px;
+  right: 0px;
+  background-color: #276dff;
+}
+
+.calculator .image-container .absolutes .time {
+  right: 45px;
+}
+
+.calculator .image-container .image {
+  -webkit-transform: translate(-100px, 0);
+          transform: translate(-100px, 0);
+}
+
+@media (max-width: 480px) {
+  .calculator .image-container .image {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+.calculator .form input {
+  border-color: #e0e7ff;
+}
+
+.calculator .form .button button {
+  color: #ffffff;
+  background-color: #276dff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -227,6 +288,7 @@ html,
 body {
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0c0c0c;
   min-height: 400vh;
 }
 
@@ -237,5 +299,42 @@ body #logoSpan,
 body #logoSpanList,
 body #headlineLogoSpan {
   color: #276dff !important;
+}
+
+html button,
+body button {
+  border-radius: 10px !important;
+}
+
+html .headTxt,
+body .headTxt {
+  font-size: 1.7rem;
+  position: relative;
+}
+
+html .headTxt::after,
+body .headTxt::after {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  bottom: 0;
+  left: 50%;
+  width: 45px;
+  height: 2px;
+  background-color: #276dff;
+}
+
+html .haedlineP,
+body .haedlineP {
+  opacity: 50%;
+  color: #0c0c0c;
+}
+
+html label,
+body label {
+  color: #8c98a9;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=main.css.map */
