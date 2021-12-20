@@ -327,6 +327,11 @@ nav .list .list-links a.active {
   height: 100%;
 }
 
+.features .freatures-card p {
+  font-size: 0.75rem;
+  opacity: 40%;
+}
+
 * {
   padding: 0;
   margin: 0;

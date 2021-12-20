@@ -35,3 +35,19 @@ var swiper = new Swiper(".mySwiper", {
     disableOnInteraction: false,
   },
 });
+
+var swiper = new Swiper(".mySwiper-2", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 2,
+    depth: 100,
+    modifier: 1,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});

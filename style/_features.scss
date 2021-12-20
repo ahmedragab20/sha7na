@@ -43,4 +43,11 @@
       height: 100%;
     }
   }
+
+  .freatures-card {
+    p {
+      font-size: $smTxt;
+      opacity: $faded;
+    }
+  }
 }
