@@ -1,0 +1,128 @@
+nav {
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  background-color: $liteDarkBrown;
+  * {
+    color: $white;
+  }
+
+  .burger {
+    transform: translate(-50%, -50%);
+    right: 1%;
+    display: none;
+  }
+
+  .links {
+    height: 15vh;
+
+    li {
+      a {
+        color: $whiteGrey;
+        font-size: 0.95rem;
+        padding: 8px 0;
+        opacity: $faded;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &.active {
+          color: $blue;
+          font-weight: bold;
+          border-bottom: 2px solid $blue;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .lang {
+    span {
+      cursor: pointer;
+      opacity: 40%;
+      &.active {
+        color: $blue;
+        opacity: 1 !important;
+      }
+    }
+  }
+
+  .icons {
+    span {
+      position: relative;
+      i {
+        cursor: pointer;
+        &.notification {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: $green;
+        }
+      }
+    }
+  }
+
+  // list design
+  .list {
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    background-color: $liteDarkBrown;
+    width: 30vw;
+    transform: translateX(-200vw);
+    transition: transform 0.4s ease-in-out;
+    z-index: 999;
+
+    * {
+      color: $white;
+    }
+
+    &.active {
+      transform: translateX(0);
+    }
+
+    .list-links {
+      a {
+        display: block;
+        opacity: $faded;
+        width: 100%;
+        padding: 10px 0;
+        border-radius: $rounded;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &.active {
+          opacity: 1;
+          background-color: $liteGrey;
+          box-shadow: $whiteLgShadow;
+          color: $blue;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    min-height: 7vh;
+
+    .burger {
+      display: block;
+    }
+  }
+  @media (max-width: 768px) {
+    .list {
+      width: 50vw;
+    }
+  }
+  @media (max-width: 480px) {
+    .list {
+      width: 75vw;
+    }
+  }
+}

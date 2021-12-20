@@ -1,0 +1,25 @@
+// files
+@import "./Global/_variables";
+@import "./Header/_Nav";
+@import "./Header/_Slider";
+
+// imports
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 400vh;
+
+  #logoSpan,
+  #logoSpanList,
+  #headlineLogoSpan {
+    color: $blue !important;
+  }
+}
