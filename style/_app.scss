@@ -1,0 +1,32 @@
+.apps {
+  figure {
+    h2 {
+      font-size: $xlTxt;
+    }
+  }
+
+  .app-img {
+    img {
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .icons {
+    i {
+      font-size: $midTxt + 1;
+      opacity: 0.8;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: $blue;
+        opacity: 1;
+      }
+    }
+  }
+}

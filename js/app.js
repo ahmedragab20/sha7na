@@ -5,6 +5,8 @@ let LogoList = document.getElementById("logoList");
 let logoSpanList = document.getElementById("logoSpanList");
 let headlineLogo = document.getElementById("headlineLogo");
 let headlineLogoSpan = document.getElementById("headlineLogoSpan");
+let footerLogo = document.getElementById("footerLogo");
+let footerLogoSpan = document.getElementById("footerLogoSpan");
 
 Logo.innerHTML = "xpress";
 logoSpan.innerHTML = "E";
@@ -16,6 +18,9 @@ logoSpanList.innerHTML = "E";
 headlineLogo.innerHTML = "xpress";
 headlineLogoSpan.innerHTML = "E";
 // headlineLogoSpan.style.color = "#273";
+
+footerLogo.innerHTML = "xpress";
+footerLogoSpan.innerHTML = "E";
 
 // List Handling
 let list = document.querySelector(".list");

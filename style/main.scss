@@ -8,6 +8,8 @@
 @import "./location";
 @import "./features";
 @import "./_customers";
+@import "./app";
+@import "./footer";
 
 // imports
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
@@ -22,11 +24,11 @@ body {
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: $darkBrown;
-  min-height: 900vh;
 
   #logoSpan,
   #logoSpanList,
-  #headlineLogoSpan {
+  #headlineLogoSpan,
+  #footerLogoSpan {
     color: $blue !important;
   }
 

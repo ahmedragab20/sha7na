@@ -376,6 +376,7 @@ nav .list .list-links a.active {
   border-radius: 50%;
   overflow: hidden;
   background-color: none;
+  border: 4px solid #ffffff;
 }
 
 .customers .swiper .swiper-slide .swiper-card .card-header .image img {
@@ -452,6 +453,56 @@ nav .list .list-links a.active {
   background-color: #276dff !important;
 }
 
+.apps figure h2 {
+  font-size: 5rem;
+}
+
+.apps .app-img img {
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.apps .app-img img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.apps .icons i {
+  font-size: 2.2rem;
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.apps .icons i:hover {
+  color: #276dff;
+  opacity: 1;
+}
+
+footer {
+  background-color: #0c0c0c;
+  color: #ffffff;
+}
+
+footer .input {
+  border-radius: 10px;
+}
+
+footer .input input:focus {
+  outline: none;
+}
+
+footer .input button {
+  background-color: #276dff;
+  color: #ffffff;
+}
+
+footer .input button:hover {
+  color: #ffffff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -464,15 +515,16 @@ body {
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #0c0c0c;
-  min-height: 900vh;
 }
 
 html #logoSpan,
 html #logoSpanList,
 html #headlineLogoSpan,
+html #footerLogoSpan,
 body #logoSpan,
 body #logoSpanList,
-body #headlineLogoSpan {
+body #headlineLogoSpan,
+body #footerLogoSpan {
   color: #276dff !important;
 }
 

@@ -1,0 +1,22 @@
+footer {
+  background-color: $darkBrown;
+  color: $white;
+
+  .input {
+    border-radius: $rounded10;
+
+    input {
+      &:focus {
+        outline: none;
+      }
+    }
+
+    button {
+      background-color: $blue;
+      color: $white;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
