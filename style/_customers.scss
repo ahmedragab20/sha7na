@@ -1,0 +1,101 @@
+.customers {
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .swiper-slide {
+      width: 50%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      // align-items: center;
+      background-color: $whiteGrey;
+      border-radius: $rounded10;
+
+      .swiper-card {
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .card-header {
+          background: none !important;
+          transform: translateY(-35%);
+          .image {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: none;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+
+          h6 {
+            margin: 8px auto;
+            color: $white;
+          }
+        }
+
+        .context {
+          color: $white;
+          opacity: $faded + 30;
+          transform: translateY(-20%);
+        }
+      }
+
+      @media (max-width: 480px) {
+        width: 90%;
+        height: 250px;
+
+        .swiper-card {
+          display: flex;
+          // justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          .card-header {
+            background: none !important;
+            transform: translateY(-35%);
+            .image {
+              width: 60px;
+              height: 60px;
+              border-radius: 50%;
+              overflow: hidden;
+              background-color: none;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+
+            h6 {
+              margin: 8px auto;
+              color: $white;
+            }
+          }
+
+          .context {
+            transform: translateY(-25%);
+            font-size: $smTxt;
+          }
+        }
+      }
+    }
+  }
+
+  .swiper-3d .swiper-slide-shadow-left,
+  .swiper-3d .swiper-slide-shadow-right {
+    background: none !important;
+  }
+  .swiper-slide-active {
+    background-color: $blue !important;
+  }
+}

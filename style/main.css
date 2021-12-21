@@ -26,7 +26,7 @@ nav .links {
 }
 
 nav .links li a {
-  color: #fafafa;
+  color: #f2f2f2;
   font-size: 0.95rem;
   padding: 8px 0;
   opacity: 40%;
@@ -330,6 +330,126 @@ nav .list .list-links a.active {
 .features .freatures-card p {
   font-size: 0.75rem;
   opacity: 40%;
+}
+
+.customers .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.customers .swiper .swiper-slide {
+  width: 50%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.customers .swiper .swiper-slide .swiper-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.customers .swiper .swiper-slide .swiper-card .card-header {
+  background: none !important;
+  -webkit-transform: translateY(-35%);
+          transform: translateY(-35%);
+}
+
+.customers .swiper .swiper-slide .swiper-card .card-header .image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: none;
+}
+
+.customers .swiper .swiper-slide .swiper-card .card-header .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.customers .swiper .swiper-slide .swiper-card .card-header h6 {
+  margin: 8px auto;
+  color: #ffffff;
+}
+
+.customers .swiper .swiper-slide .swiper-card .context {
+  color: #ffffff;
+  opacity: 70%;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+
+@media (max-width: 480px) {
+  .customers .swiper .swiper-slide {
+    width: 90%;
+    height: 250px;
+  }
+  .customers .swiper .swiper-slide .swiper-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .customers .swiper .swiper-slide .swiper-card .card-header {
+    background: none !important;
+    -webkit-transform: translateY(-35%);
+            transform: translateY(-35%);
+  }
+  .customers .swiper .swiper-slide .swiper-card .card-header .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: none;
+  }
+  .customers .swiper .swiper-slide .swiper-card .card-header .image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .customers .swiper .swiper-slide .swiper-card .card-header h6 {
+    margin: 8px auto;
+    color: #ffffff;
+  }
+  .customers .swiper .swiper-slide .swiper-card .context {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+    font-size: 0.75rem;
+  }
+}
+
+.customers .swiper-3d .swiper-slide-shadow-left,
+.customers .swiper-3d .swiper-slide-shadow-right {
+  background: none !important;
+}
+
+.customers .swiper-slide-active {
+  background-color: #276dff !important;
 }
 
 * {
